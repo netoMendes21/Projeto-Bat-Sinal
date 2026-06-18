@@ -3,15 +3,14 @@
   <h1>Bat-Sinal App</h1>
 </div>
 
-### Uma aplicação mobile desenvolvida em React Native para simular a ativação do Bat-sinal. Ao clicar no botão "Activate Bat Signal", o usuário é direcionado para um formulário de emergência onde poderá informar seus dados e relatar a situação para solicitar a ajuda do Batman. O objetivo principal do projeto é praticar e consolidar conceitos fundamentais do ecossistema React Native e TypeScript.
 
----
+### Uma aplicação mobile desenvolvida em React Native para simular a ativação do Bat-sinal. Ao clicar no botão "Activate Bat Signal", o usuário é direcionado para um formulário de emergência onde poderá informar seus dados e relatar a situação para solicitar a ajuda do Batman. O objetivo principal do projeto é praticar e consolidar conceitos fundamentais do ecossistema React Native e TypeScript.
 
 <br>
 
 ## 🚀 Conceitos Praticados
 
-<div style="font-size: 16px">
+<div style="font-size: 18px">
 
 - **Componentização:** Divisão da interface em componentes menores, isolados e totalmente reutilizáveis.
 - **Gerenciamento de Estado Nativo:** Controle de fluxos e alternância de telas "na mão" através de estados (`useState`), sem dependência inicial de bibliotecas de terceiros para navegação.
@@ -34,27 +33,14 @@
 
 ## 📸 Demonstração
 
-<p style="font-size: 16px">Abaixo pode conferir a interface final do aplicativo simulada dentro de molduras de smartphones Android.</p>
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 100px; flex-wrap: nowrap;">
-
-  <div style="text-align: center;">
-    <strong style="display: block;font-size: 16px; margin-bottom: 15px;">📱 Tela Inicial (Home)</strong>
-    <div style="position: relative; width: 260px; height: 530px; border: 12px solid #1a1a1a; border-radius: 36px; overflow: hidden; background: #ffffff; box-shadow: 0 10px 25px rgba(0,0,0,0.4);">
-      <div style="position: absolute; top: 8px; left: 50%; transform: translateX(-50%); width: 14px; height: 14px; background: #1a1a1a; border-radius: 50%; z-index: 10;"></div>
-      <img src="assets/project-images/home-page.png" width="100%" height="100%" style="object-fit: contain; background-color: #ffffff;" alt="Home Screen" />
-    </div>
-  </div>
-
-  <div style="text-align: center;">
-    <strong style="display: block; font-size: 16px; margin-bottom: 15px;">📝 Formulário de Ajuda (FormHelp)</strong>
-    <div style="position: relative; width: 260px; height: 530px; border: 12px solid #1a1a1a; border-radius: 36px; overflow: hidden; background: #ffffff; box-shadow: 0 10px 25px rgba(0,0,0,0.4);">
-      <div style="position: absolute; top: 8px; left: 50%; transform: translateX(-50%); width: 14px; height: 14px; background: #1a1a1a; border-radius: 50%; z-index: 10;"></div>
-      <img src="assets/project-images/form-page.png" width="100%" height="100%" style="object-fit: contain; background-color: #ffffff;" alt="Form Screen" />
-    </div>
-  </div>
-
-</div>
+Abaixo pode conferir a interface final do aplicativo simulada dentro de molduras de smartphones Android.
+<br><br>
+<p align="center">
+ 
+  <img src="assets/project-images/home-page.png" width="280" hspace="50" alt="Tela Inicial (Home)" />
+  
+  <img src="assets/project-images/form-page.png" width="280" hspace="50" alt="Formulário de Ajuda (FormHelp)" />
+</p>
 
 <br><br>
 
