@@ -1,13 +1,18 @@
-import { Image, Text } from "react-native";
+import { Image, Pressable } from "react-native";
 import { styles } from "./BackButtonStyle";
 
-export function BackButton() {
+
+type BackButtonType = {
+  onPress: () => void;
+}
+
+export function BackButton({onPress}: BackButtonType ) {
   return (
-    <>
+    <Pressable onPress={onPress}>
       <Image
         source={require("../../../assets/arrow.png")}
-        style={styles.container}
+        style={styles.arrowBack}
       />
-    </>
+    </Pressable>
   );
 }

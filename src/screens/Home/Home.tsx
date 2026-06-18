@@ -15,7 +15,7 @@ export function Home() {
   return (
     <View style={styles.container}>
       {showForm ? (
-        <FormHelp />
+        <FormHelp onBack={() => setShowForm(false)} />
       ) : (
         <>
           <BatLogo />

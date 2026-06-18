@@ -1,5 +1,4 @@
-import { Text, TextInput, View } from "react-native";
-
+import { Text, TextInput } from "react-native";
 import { styles } from "./TextAreaStyle";
 
 type TextAreaType = {
@@ -17,8 +16,8 @@ export function TextArea({ label, placeholder }: TextAreaType) {
         multiline
         maxLength={40}
         placeholder={placeholder}
-        placeholderTextColor="black"
-      ></TextInput>
+        placeholderTextColor="red"
+      />
     </>
   );
 }

@@ -14,13 +14,8 @@ export function InputForm({ label, placeholder }: InputForm) {
       <TextInput
         style={styles.textInputs}
         placeholder={placeholder}
-        placeholderTextColor="black"
-      ></TextInput>
-      ;
+        placeholderTextColor="red"
+      />
     </>
   );
-}
-
-export function TextAreaForm() {
-  
 }
